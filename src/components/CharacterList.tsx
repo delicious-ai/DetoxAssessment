@@ -14,6 +14,9 @@ const CharacterList = ({ route, navigation }: Props) => {
         <Text>Welcome {route.params?.email}!</Text>
         <Text>Star Wars Character List</Text>
         <Text>Select a character to learn more</Text>
+        <Text style={styles.hint}>
+          Obi-Wan Kenobi is my favorite. How about you?
+        </Text>
       </View>
       <FlatList
         data={CHARACTERS}
@@ -55,6 +58,9 @@ const styles = StyleSheet.create({
     marginBottom: 50,
     width: '100%',
     marginHorizontal: 20,
+  },
+  hint: {
+    fontSize: 10,
   },
 })
 
