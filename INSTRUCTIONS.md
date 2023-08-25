@@ -6,6 +6,10 @@ You'll write two test suites. One for various login cases and another for naviga
 
 Wherever possible, use `testID` instead of finding elements by text.
 
+When you're finished, :warning: **DO NOT PUSH YOUR CHANGES TO GITHUB**. Zip the entire repository with your changes and email it your interviewer.
+
+Good luck!
+
 ## Login Test Suite
 
 In `e2e/login.test.js` write a suite of test cases for the following login scenarios.
